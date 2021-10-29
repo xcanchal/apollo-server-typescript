@@ -1,0 +1,5 @@
+schema: "./type-defs.ts"
+generates:
+  ./gql-types.d.ts:
+    plugins:
+      - typescript
